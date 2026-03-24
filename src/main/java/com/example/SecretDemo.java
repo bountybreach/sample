@@ -7,4 +7,7 @@ public class SecretDemo {
     public void printSecret() {
         System.out.println("The secret key is: " + API_KEY);
     }
+    public void printSecretText() {
+        System.out.println("The secret key is: " + API_KEY);
+    }
 }
