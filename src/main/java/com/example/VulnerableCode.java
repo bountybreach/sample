@@ -8,6 +8,7 @@ import java.sql.Statement;
 public class VulnerableCode {
 
     public void doSomethingDangerous() {
+        Spring password= "PassWord0302026@";
         String userInput = "1 OR 1=1";
         try {
             Connection conn = DriverManager.getConnection("jdbc:h2:mem:test", "sa", "");
